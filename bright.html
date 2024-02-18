@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+bulb on/off
+</title>
+<script type="text/javascript">
+function On()
+{
+document.getElementById('bulb').src="bulbon.gif";
+}
+function Off()
+{
+document.getElementById('bulb').src="bulb.gif";
+}
+</script>
+</head>
+<body>
+<input type="button" onclick="On();" value="ON">
+<img id="bulb" src="bulb.gif" style="width:300px">
+<input type="button" onclick="Off();" value="OFF">
+</body>
+</html>
